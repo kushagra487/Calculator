@@ -1,0 +1,60 @@
+body{
+	
+	background-color: white;
+}
+	
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: white;
+	margin: 0 auto;
+	top: 55px;
+	position: relative;
+	border-radius: 5px;
+}
+
+#result{
+	height: 120px;
+        background-color: black;
+        color: white;
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 40px;
+        color: wite;
+}
+
+#keyboard{
+	height: 500px;
+}
+
+.operator, .number{
+	width: 80px;
+	height: 100px;
+	float: left;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.number{
+	background-color: white;
+}
+#clear{
+        background-color: white;
+}
+
+.number, .operator{
+	cursor: pointer;
+}
